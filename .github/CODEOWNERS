@@ -1,0 +1,33 @@
+# CODEOWNERS file for event-cache-108
+# Global owners - will be requested for all PRs
+* @Armor-test/squad-search @Armor-test/unit-design @Armor-test/dept-billing
+
+# Directory ownership
+/middleware/ @Armor-test/dept-notifications @Armor-test/squad-payments
+/dist/ @Armor-test/grp-payments @Armor-test/squad-cloud
+/vendor/ @Armor-test/dept-test @Armor-test/dept-release
+/utils/ @Armor-test/squad-search @Armor-test/squad-product @Armor-test/grp-payments
+/data/ @Armor-test/team-frontend @Armor-test/dept-automation
+/controllers/ @Armor-test/team-logging @Armor-test/dept-notifications @Armor-test/dept-data
+/src/ @Armor-test/unit-devops @Armor-test/dept-notifications
+/static/ @Armor-test/dept-reliability @Armor-test/squad-research @Armor-test/unit-design
+/deploy/ @Armor-test/squad-ml @Armor-test/squad-cloud
+/modules/ @Armor-test/grp-integration @Armor-test/grp-payments
+
+# File type ownership
+*.kt @Armor-test/dept-test @Armor-test/squad-database @Armor-test/unit-design
+*.lock @Armor-test/squad-research @Armor-test/team-core
+*.gradle @Armor-test/squad-tooling @Armor-test/squad-ml
+*.rs @Armor-test/dept-data @Armor-test/dept-test
+*.rb @Armor-test/squad-tooling @Armor-test/dept-security
+*.scala @Armor-test/squad-product @Armor-test/grp-ui
+*.go @Armor-test/grp-reporting @Armor-test/grp-api @Armor-test/squad-tooling
+*.sql @Armor-test/team-reporting @Armor-test/squad-reporting
+*.json @Armor-test/grp-api @Armor-test/grp-search @Armor-test/dept-automation
+*.c @Armor-test/squad-ux @Armor-test/dept-billing @Armor-test/grp-storage
+*.yml @Armor-test/squad-research @Armor-test/unit-cloud @Armor-test/squad-ux
+
+# Security and special files
+Jenkinsfile @Armor-test/ci-team @Armor-test/devops
+Dockerfile @Armor-test/devops @Armor-test/infra
+package.json @Armor-test/dependency-team @Armor-test/security
